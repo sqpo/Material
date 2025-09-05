@@ -1,0 +1,17 @@
+﻿
+Nyquest IDE Solution File, Format Version 1.00
+# NYIDE 5.21.0.3561
+Project("{608D5F73-6C2E-489F-8ED6-C0FBCCEB586F}") = "ADC Interrupt", "ADC Interrupt\ADC Interrupt.naprj", "{BA2BE343-1A4A-4A2D-ABBF-5B0E5701E896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any = Debug|Any
+		Release|Any = Release|Any
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA2BE343-1A4A-4A2D-ABBF-5B0E5701E896}.Debug|Any.Build.0 = Debug|CNy8
+		{BA2BE343-1A4A-4A2D-ABBF-5B0E5701E896}.Debug|Any.ActiveCfg = Debug|CNy8
+		{BA2BE343-1A4A-4A2D-ABBF-5B0E5701E896}.Release|Any.Build.0 = Release|CNy8
+		{BA2BE343-1A4A-4A2D-ABBF-5B0E5701E896}.Release|Any.ActiveCfg = Release|CNy8
+	EndGlobalSection
+EndGlobal

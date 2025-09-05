@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup Condition="">
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>ADC Interrupt</AssemblyName>
+    <Bank0Only>False</Bank0Only>
+    <BankselOptLevel>1</BankselOptLevel>
+    <BuildCCompilerVersion>NYC_NY8 1.61 Beta [Build: 240216.00]</BuildCCompilerVersion>
+    <BuildNYASMVersion>NYASM 2.41 [Build: 231121.00]</BuildNYASMVersion>
+    <BuildNYIDEVersion>NYIDE 5.21 Beta [Build: 231227.00]</BuildNYIDEVersion>
+    <CCompilerInstallDir>C:\Nyquest\NYC_NY8</CCompilerInstallDir>
+    <ChipId>NY8BE64A</ChipId>
+    <ClientName>Nyuqest</ClientName>
+    <Configuration>Debug</Configuration>
+    <GenAsmListFile>True</GenAsmListFile>
+    <GenListFile>True</GenListFile>
+    <GenMapFile>True</GenMapFile>
+    <InitializeBss>False</InitializeBss>
+    <IsBankselOpt>True</IsBankselOpt>
+    <NYASMInstallDir>C:\Nyquest\NYASM\</NYASMInstallDir>
+    <NYIDEInstallDir>C:\Nyquest\NYIDE\</NYIDEInstallDir>
+    <OutputType>bin</OutputType>
+    <Platform>CNy8</Platform>
+    <ProjectGuid>{BA2BE343-1A4A-4A2D-ABBF-5B0E5701E896}</ProjectGuid>
+    <ProjectOptionChanged>False</ProjectOptionChanged>
+    <ReservedInterruptRam>2</ReservedInterruptRam>
+    <ReservedRam>6</ReservedRam>
+    <RootNamespace>ADC_Interrupt</RootNamespace>
+    <TrimSetting>+ 0%</TrimSetting>
+    <WarningMsgCount>0</WarningMsgCount>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="ADC Interrupt.cb" EntryPoint="false" MetaData="" />
+    <Compile Include="main.c" EntryPoint="false" MetaData="" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Client: Nyuqest" EntryPoint="false" MetaData="" />
+    <Reference Include="Config Block: ADC_Interrupt.cb" EntryPoint="false" MetaData="" />
+    <Reference Include="IC Body: NY8BE64A" EntryPoint="false" MetaData="" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="C:\Nyquest\NY8_Example_Code\include\NY8 C\ny8_constant.h" EntryPoint="false" MetaData="Dependency Files\ny8_constant.h" />
+    <ApplicationDefinition Include="C:\Nyquest\NY8_Example_Code\include\NY8 C\ny8be64a_constant.h" EntryPoint="false" MetaData="Dependency Files\ny8be64a_constant.h" />
+    <ApplicationDefinition Include="C:\Nyquest\NYC_NY8\include\ny8.h" EntryPoint="false" MetaData="Dependency Files\ny8.h" />
+    <ApplicationDefinition Include="C:\Nyquest\NYC_NY8\include\ny8_eeprom.h" EntryPoint="false" MetaData="Dependency Files\ny8_eeprom.h" />
+    <ApplicationDefinition Include="C:\Nyquest\NYC_NY8\include\ny8be64a.h" EntryPoint="false" MetaData="Dependency Files\ny8be64a.h" />
+    <ApplicationDefinition Include="C:\Nyquest\NYC_NY8\include\ny8common.h" EntryPoint="false" MetaData="Dependency Files\ny8common.h" />
+    <Folder Include="Dependency Files" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles" EntryPoint="false" MetaData="" />
+    <Folder Include="ResourceFiles\EEPROM" EntryPoint="false" MetaData="" />
+  </ItemGroup>
+  <Properties>
+    <Array name="ActionFiles" />
+    <Array name="bookmarks">
+      <Element value="Breakpoint|main.c|26|2|Enabled|||||||||" />
+    </Array>
+    <Array name="DisassemblyPadColumnWidthInfo">
+      <Element value="AddrWidth|60" />
+      <Element value="CodeWidth|140" />
+      <Element value="ArrowWidth|20" />
+    </Array>
+    <Array name="EEPROMOverwriteData" />
+    <Array name="EnvelopFiles" />
+    <Array name="ExternalResource" />
+    <Array name="files">
+      <Element value="main.c|True" />
+      <Element value="C:/Nyquest/NY8_Example_Code/include/NY8 C/ny8be64a_constant.h|False" />
+    </Array>
+    <Array name="InstrumentFiles" />
+    <Array name="LedStripFiles" />
+    <Array name="MelodyDatabaseFiles" />
+    <Array name="MusicFiles" />
+    <Array name="RegisterPadExpandInfo">
+      <Element value="0|True" />
+      <Element value="100|False" />
+      <Element value="101|False" />
+      <Element value="102|False" />
+      <Element value="103|False" />
+      <Element value="104|False" />
+      <Element value="105|False" />
+      <Element value="106|False" />
+      <Element value="107|False" />
+      <Element value="108|False" />
+      <Element value="109|False" />
+      <Element value="110|False" />
+      <Element value="111|False" />
+      <Element value="112|False" />
+      <Element value="113|False" />
+      <Element value="114|False" />
+      <Element value="115|False" />
+      <Element value="116|False" />
+      <Element value="117|False" />
+      <Element value="118|False" />
+      <Element value="119|False" />
+      <Element value="120|False" />
+      <Element value="121|False" />
+      <Element value="122|False" />
+      <Element value="123|False" />
+      <Element value="124|False" />
+      <Element value="125|False" />
+      <Element value="126|False" />
+      <Element value="127|False" />
+      <Element value="128|False" />
+      <Element value="129|False" />
+      <Element value="130|False" />
+      <Element value="131|False" />
+      <Element value="1|True" />
+      <Element value="200|False" />
+      <Element value="201|False" />
+      <Element value="202|False" />
+      <Element value="203|False" />
+      <Element value="204|False" />
+      <Element value="205|False" />
+      <Element value="206|False" />
+      <Element value="207|False" />
+      <Element value="208|False" />
+      <Element value="209|False" />
+      <Element value="2|True" />
+      <Element value="300|False" />
+      <Element value="301|False" />
+      <Element value="302|False" />
+      <Element value="303|False" />
+      <Element value="304|False" />
+      <Element value="305|False" />
+      <Element value="306|False" />
+      <Element value="307|False" />
+      <Element value="308|False" />
+      <Element value="309|False" />
+      <Element value="310|False" />
+      <Element value="311|False" />
+      <Element value="312|False" />
+      <Element value="313|False" />
+      <Element value="314|False" />
+      <Element value="315|False" />
+      <Element value="316|False" />
+      <Element value="317|False" />
+      <Element value="318|False" />
+      <Element value="319|False" />
+      <Element value="320|False" />
+      <Element value="321|False" />
+      <Element value="322|False" />
+      <Element value="323|False" />
+      <Element value="324|False" />
+      <Element value="3|True" />
+      <Element value="400|False" />
+      <Element value="401|False" />
+      <Element value="402|False" />
+      <Element value="403|False" />
+      <Element value="404|False" />
+      <Element value="405|False" />
+      <Element value="406|False" />
+      <Element value="407|False" />
+      <Element value="408|False" />
+      <Element value="409|False" />
+      <Element value="410|False" />
+      <Element value="411|False" />
+      <Element value="412|False" />
+      <Element value="413|False" />
+      <Element value="414|False" />
+      <Element value="415|False" />
+    </Array>
+    <Array name="RegisterWindowExpandInfo">
+      <Element value="R-Page|False" />
+      <Element value="INDF@R-Page|False" />
+      <Element value="TMR0@R-Page|False" />
+      <Element value="PCL@R-Page|False" />
+      <Element value="STATUS@R-Page|False" />
+      <Element value="FSR@R-Page|False" />
+      <Element value="PORTA@R-Page|False" />
+      <Element value="PORTB@R-Page|False" />
+      <Element value="PORTC@R-Page|False" />
+      <Element value="PCON@R-Page|False" />
+      <Element value="BWUCON@R-Page|False" />
+      <Element value="PCHBUF@R-Page|False" />
+      <Element value="ABPLCON@R-Page|False" />
+      <Element value="BPHCON@R-Page|False" />
+      <Element value="CPHCON@R-Page|False" />
+      <Element value="INTE@R-Page|False" />
+      <Element value="INTF@R-Page|False" />
+      <Element value="ADMD@R-Page|False" />
+      <Element value="ADR@R-Page|False" />
+      <Element value="ADD@R-Page|False" />
+      <Element value="ADVREFH@R-Page|False" />
+      <Element value="ADCR@R-Page|False" />
+      <Element value="AWUCON@R-Page|False" />
+      <Element value="PACON@R-Page|False" />
+      <Element value="ADJMD@R-Page|False" />
+      <Element value="INTEDG@R-Page|False" />
+      <Element value="TMRH@R-Page|False" />
+      <Element value="ANAEN@R-Page|False" />
+      <Element value="RFC@R-Page|False" />
+      <Element value="TM4RH@R-Page|False" />
+      <Element value="OSCCALH@R-Page|False" />
+      <Element value="OSCCALL@R-Page|False" />
+      <Element value="INTE2@R-Page|False" />
+      <Element value="F-Page|False" />
+      <Element value="IOSTA@F-Page|False" />
+      <Element value="IOSTB@F-Page|False" />
+      <Element value="IOSTC@F-Page|False" />
+      <Element value="APHCON@F-Page|False" />
+      <Element value="PS0CV@F-Page|False" />
+      <Element value="CPLCON@F-Page|False" />
+      <Element value="BODCON@F-Page|False" />
+      <Element value="CODCON@F-Page|False" />
+      <Element value="CMPCR@F-Page|False" />
+      <Element value="PCON1@F-Page|False" />
+      <Element value="S-Page|False" />
+      <Element value="TMR1@S-Page|False" />
+      <Element value="T1CR1@S-Page|False" />
+      <Element value="T1CR2@S-Page|False" />
+      <Element value="PWM1DUTY@S-Page|False" />
+      <Element value="PS1CV@S-Page|False" />
+      <Element value="BZ1CR@S-Page|False" />
+      <Element value="IRCR@S-Page|False" />
+      <Element value="TBHP@S-Page|False" />
+      <Element value="TBHD@S-Page|False" />
+      <Element value="P2CR1@S-Page|False" />
+      <Element value="PWM2DUTY@S-Page|False" />
+      <Element value="OSCCR@S-Page|False" />
+      <Element value="P3CR1@S-Page|False" />
+      <Element value="PWM3DUTY@S-Page|False" />
+      <Element value="TMR4@S-Page|False" />
+      <Element value="T4CR1@S-Page|False" />
+      <Element value="T4CR2@S-Page|False" />
+      <Element value="PWM4DUTY@S-Page|False" />
+      <Element value="PS4CV@S-Page|False" />
+      <Element value="TMR5@S-Page|False" />
+      <Element value="T5CR1@S-Page|False" />
+      <Element value="T5CR2@S-Page|False" />
+      <Element value="PWM5DUTY@S-Page|False" />
+      <Element value="PS5CV@S-Page|False" />
+      <Element value="TM5RH@S-Page|False" />
+      <Element value="T-Page|False" />
+      <Element value="SIMCR@T-Page|False" />
+      <Element value="MADR@T-Page|False" />
+      <Element value="MFDR@T-Page|False" />
+      <Element value="MCR@T-Page|False" />
+      <Element value="MSR@T-Page|False" />
+      <Element value="SIMDR@T-Page|False" />
+      <Element value="SPCR@T-Page|False" />
+      <Element value="INTE3@T-Page|False" />
+      <Element value="INTF3@T-Page|False" />
+      <Element value="THR@T-Page|False" />
+      <Element value="LCR@T-Page|False" />
+      <Element value="LSR@T-Page|False" />
+      <Element value="DLL@T-Page|False" />
+      <Element value="DLH@T-Page|False" />
+      <Element value="CCPCON@T-Page|False" />
+      <Element value="PWMDB@T-Page|False" />
+    </Array>
+    <Array name="ResourceManager" />
+    <Array name="UpdateableResources" />
+    <Array name="UserDefinedSection" />
+    <Array name="VoiceFiles" />
+    <Array name="VRModule" />
+    <Array name="WatchItemInfo">
+      <Element value="R_AIN1_DATA_HB|0" />
+      <Element value="R_AIN1_DATA_LB|0" />
+    </Array>
+    <Array name="WatchPadColumnWidthInfo">
+      <Element value="NameWidth|50" />
+      <Element value="AddrWidth|50" />
+      <Element value="ValWidth|50" />
+      <Element value="PageWidth|50" />
+    </Array>
+  </Properties>
+</Project>
