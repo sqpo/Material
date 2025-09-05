@@ -15,6 +15,7 @@
 
 unsigned char R_AIN1_DATA_HB;	
 unsigned char R_AIN1_DATA_LB;
+unsigned char text;
 
 #define UPDATE_REG(x)	__asm__("MOVR _" #x ",F")
 
